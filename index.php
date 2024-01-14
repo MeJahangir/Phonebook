@@ -67,33 +67,35 @@ while (($line = fgetcsv($file)) !== FALSE) {
 
 <div style=" display: flex; justify-content: center;">
 
-    <div style="background-color: #e9e9e9; width: 270px; height: 350px; padding-left: 50px; border-radius: 20px; margin-top: 20px;">
+    <div style="background-color: #e9e9e9; width: 270px; height: 370px; border-radius: 20px; margin-top: 20px;">
         <h1 style= "font-weight: bold; text-align: center;">
             Login
         </h1>
-        <form action="#" method="post" enctype='multipart/form-data'>
-            <div style="margin-bottom: 10px">
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div style="margin-bottom: 10px; padding-left: 50px;">
                 <label>
                     Name: <br>
                     <input type="text" name="name" placeholder="jahangir"style="margin-top: 10px;"><br>
                 </label>
             </div>
-            <div style="margin-bottom: 10px">
+            <div style="margin-bottom: 10px; padding-left: 50px;">
                 <label>
                     Email: <br>
                     <input type="text" name="email" placeholder="jahangir@gmail.com" style="margin-top: 10px;">
                 </label>
             </div>
-            <div style="margin-bottom: 10px">
+            <div style="margin-bottom: 10px; padding-left: 50px;">
                 <label>
                     Password:<br>
                     <input type="password" name="password" placeholder="password"style="margin-top: 10px;">
                 </label>
             </div>
-            <div style="margin-bottom: 10px">
+            <div style="margin-bottom: 10px; padding-left: 50px;">
                 <input type='file' name='photo' tmp_name="man"/>
             </div>
-            <input type="submit" name= "submit" value="Submit">
+            <div style="text-align: center;margin-top: 20px;">
+            <input type="submit" name= "submit" value="Submit" style="width: 100px;height: 40px;border-radius: 10px;background-color: #817070;color: white;font-size: 18px;">
+            </div>
         </form>
     </div>
 
