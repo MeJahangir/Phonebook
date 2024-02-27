@@ -10,6 +10,9 @@
     if (!file_exists('data')) {
       mkdir('data', 0777, true);
     }
+    if (!file_exists('datas')) {
+        mkdir('datas', 0777, true);
+    }
      // Check if photo folder exists
     if (!file_exists('photo')) {
         mkdir('photo', 0777, true);
